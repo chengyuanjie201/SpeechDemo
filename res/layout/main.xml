@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_backgroud"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <ListView
+        android:id="@+id/listview_main"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_weight="0.16" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:text="温州商学院毕业设计" />
+
+</LinearLayout>
